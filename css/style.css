@@ -9,7 +9,16 @@ body {
     font-size: 15px;
 }
 
-
+.midis {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+   .midis {
+       width: unset;
+   }
+}
 /* Navbar section */
 
 .nav {
